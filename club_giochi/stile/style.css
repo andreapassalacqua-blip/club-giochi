@@ -1,0 +1,79 @@
+/* Stile generale del corpo della pagina */
+body {
+    font-family: 'Arial', sans-serif; /* Scegli un font più leggibile */
+    line-height: 1.6; /* Aumenta l'interlinea per una migliore leggibilità */
+    margin: 0; /* Rimuove il margine predefinito del body */
+    padding: 0; /* Rimuove il padding predefinito del body */
+    background-color: #f4f4f4; /* Un leggero sfondo grigio */
+    color: #333; /* Colore del testo principale */
+}
+
+/* Stile dell'header */
+header {
+    background-color: #333; /* Sfondo scuro */
+    color: #fff; /* Testo bianco */
+    padding: 1rem 0; /* Padding sopra e sotto */
+    text-align: center; /* Centra il testo nell'header */
+    margin-bottom: 20px; /* Spazio sotto l'header */
+}
+
+header h1 {
+    margin: 0; /* Rimuove il margine predefinito dell'h1 */
+    font-size: 2.5rem; /* Dimensione del titolo */
+}
+
+/* Stile della navigazione */
+nav ul {
+    padding: 0; /* Rimuove il padding predefinito delle liste */
+    list-style: none; /* Rimuove i pallini della lista */
+    text-align: center; /* Centra gli elementi della navigazione */
+}
+
+nav ul li {
+    display: inline; /* Mostra gli elementi in linea */
+    margin: 0 15px; /* Spazio tra gli elementi del menu */
+}
+
+nav a {
+    color: #fff; /* Colore dei link bianco */
+    text-decoration: none; /* Rimuove la sottolineatura dei link */
+    font-weight: bold; /* Grassetto */
+    transition: color 0.3s ease; /* Animazione al passaggio del mouse */
+}
+
+nav a:hover {
+    color: #007bff; /* Cambia colore al passaggio del mouse */
+}
+
+/* Stile del contenuto principale */
+main {
+    padding: 20px; /* Padding interno */
+    max-width: 960px; /* Larghezza massima del contenuto */
+    margin: 0 auto; /* Centra il blocco main nella pagina */
+    background-color: #fff; /* Sfondo bianco per il contenuto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra */
+    border-radius: 8px; /* Bordi arrotondati */
+}
+
+/* Stile per il box "Archivio Giochi" o elementi simili nel main */
+.card { /* Puoi applicare questa classe a un div che racchiude "Archivio Giochi" */
+    background-color: #fff; /* Sfondo bianco */
+    border: 1px solid #ddd; /* Bordo sottile */
+    padding: 15px; /* Padding interno */
+    margin-bottom: 20px; /* Spazio sotto la card */
+    border-radius: 5px; /* Bordi leggermente arrotondati */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Ombra più leggera */
+}
+
+.card h2 {
+    margin-top: 0; /* Rimuove il margine superiore dell'h2 all'interno della card */
+}
+
+/* Stile del footer */
+footer {
+    text-align: center; /* Centra il testo */
+    padding: 20px; /* Padding */
+    margin-top: 30px; /* Spazio sopra il footer */
+    color: #777; /* Colore testo grigio */
+    font-size: 0.9rem; /* Dimensione font ridotta */
+}
